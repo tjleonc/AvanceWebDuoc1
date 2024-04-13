@@ -1,0 +1,125 @@
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#body-login,
+#body-login--admin{
+    background-color: #E1E1E1;
+}
+
+.back-to-login i{
+    color: #393494;
+}
+
+.back-to-login{
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+}
+
+.logo-login{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.logear button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E1E1E1;
+    color: white;
+    cursor: pointer;
+}
+
+.logear button:hover {
+    background-color: #393494;
+}
+
+#boton-form:hover{
+    background-color: #beb8b8;
+}
+
+.return-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logear{
+    border-radius: 2rem;
+    padding: 60px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 33px -1px rgba(0,0,0,0.75);
+    background-color: #fff;
+
+}
+
+.logear button{
+    background-color: #393494;
+    color: white;
+}
+
+#texto-form{
+    padding-bottom: 2rem;
+    color: #393494;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#input-form{
+    border-radius: 1rem;
+    background-color: #CECECE;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CECECE;
+}
+
+#header-register{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#header-register:hover{
+    animation: moveFlecha 0.7s infinite linear;
+}
+
+#header-login{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#header-login:hover{
+    animation: moveFlecha 0.7s infinite linear;
+}
+
+#link-admin{
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+@keyframes moveFlecha {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

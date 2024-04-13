@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Inicio de Sesión</title>
+<link rel="stylesheet" href="../css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body id="body-login">
+
+    <header id="header-login">
+        <a id="flecha" href="javascript: history.go(-1)"><img src="../img/arrow-left-circle-fill.svg" alt=""></a>
+    </header>
+
+<!-- revisar colores del bg -->
+<div class="container">
+    <div class="logear">
+        <div id="link-admin">
+            <p><a href="login-admin.html">Login Administrador</a></p>
+        </div>
+        <div class="logo-login">
+            <img src="../img/Colorful_Live_News_Free_Logo-removebg-preview 1.svg" alt="Foto" width="150">
+        </div>
+        <div class="form-wrapper">
+            <form action="../index.html">
+                <h2 id="texto-form" >Iniciar sesion</h2>
+        
+                <input id="input-form" type="text" name="correo" placeholder="Correo electrónico"><br>
+                <input id="input-form" type="password" name="contraseña" placeholder="Contraseña"><br>
+                <p>No tienes cuenta? <span><a href="register.html">Registrate</a></span></p>
+                <button id="boton-form" type="submit">Ingresar</button>
+                
+            </form>
+        </div>
+    </div>  
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+
+</body>
+</html>

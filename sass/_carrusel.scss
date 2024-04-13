@@ -1,0 +1,14 @@
+#carrusel{
+
+    padding-top:2rem;
+    max-height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.carousel-item img{
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantener la proporción original de la imagen */
+    margin: 0 auto;
+}

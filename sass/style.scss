@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_resetcss.scss";
+@import "_navbar.scss";
+@import "_carrusel.scss";
+@import "_inicioSesion.scss";
+@import "_contacto.scss";
+@import "_slider.scss";
+@import "_carrito.scss";
+
+
+body{
+    max-width: 1920px;
+    background-color: #E1E1E1;
+}
+
+
